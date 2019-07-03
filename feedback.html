@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+<title>NETFLIX</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/feedback.css">
+</head>
+
+<body>
+
+  <header>
+  	<img src="images/fa.jpg" alt="favcon" width="85">
+   	<h2>NETFLIX</h2>
+   	<h3>UNLIMITED TV SHOWS &amp; MOVIES </h3>
+  </header>
+  <nav id="nav_menu">
+  	<ul>
+    	<li><a href="index.html" class="current">HOME</a></li>
+    	
+    	<li><a href="table.html"> TV SHOWS &amp; MOVIES </a>
+    		<ul>
+    			<li><a href="table.html">NEW RELEASES</a></li>
+    			<li><a href="NETFLIX ORIGNALS/table.html">NETFLIX ORIGNALS</a>
+				<ul>
+				    <li><a href="NETFLIX ORIGNALS/table.html">MARVEL TELEVISION </a>
+					<li><a href="NETFLIX ORIGNALS/table.html">20<sup>TH</sup> CENTURY FOX</a>
+				</ul>
+				</li>
+    			<li><a href="KID&rsquo;S/table.html">KID&rsquo;S TV</a></li>
+				
+				   
+    		</ul>
+    	</li>
+		<li><a href="table.html">FINANCE</a></li>
+		<li><a href="feedback.html">FEEDBACK</a></li>
+    	
+	</ul>
+  </nav>
+  <main>
+	<aside id="sidebarA">
+		<nav id="nav_list">
+   		<ul>
+   			<li><a href="index.html"><img src="images/ho.jpg" alt="HOME" width="170" height="150"></a></li>
+			<p><strong>HOME</strong></p>
+   			<li><a href="image.html"><img src="images/im.jpg" alt="TV SHOWS &amp; MOVIES" width="170" height="150"></a></li>
+			<p><strong>TV SHOWS &amp; MOVIES </strong></p>
+   			<li><a href="table.html"><img src="images/fi.png" alt="FINANCE" width="170" height="150"></a></li>
+			<p><strong>FINANCE</strong></p>
+			<li><a href="feedback.html"><img src="images/fe.png" alt="FEEDBACK" width="170" height="150"></a></li>
+			<p><strong>FEEDBACK</strong></p>
+		</ul>
+		</nav>
+	</aside>
+	
+	
+<section>
+    	
+		<h2> FEEDBACK</h2>
+		
+		<img src="images/fe.png" width="493" height="170">
+		 <form name ="feedback_form" action="submit">
+		 
+           <label for="firstname"> Name:</label>
+          <input type="text" name="Name" id="Name" required autofocus><br>
+
+           <label for="lastname"> Email:</label>
+           <input type="text" name="Email" id="Email"><br>
+
+           
+          <label for="Age" > Age:</label>		 
+		 <select name="dp" id="dp">
+		 
+         <optgroup label="Men">
+		 <option value="" disabled selected >--Choose Age--</option>
+        <option value="m">10</option>
+        <option value="m">12</option>
+        <option value="m">16</option>
+        </optgroup>
+		
+        <optgroup label="Women">
+        <option value="w">10</option>
+        <option value="w">12</option>
+        <option value="w">16</option>
+        </optgroup>
+
+        </select><br>
+
+         
+
+          
+		    <label> Netflix Orignals:</label>
+           <select name="Nexflix Orignals" id="fav" size="7" multiple>
+		   <option value="" disabled selected >---choose favourite netflix originals--</option>
+		    <option value="thin">Black Mirror</option>
+			<option value="thin"> Riverdale</option>
+		    <option value="thin">Orange is the new black</option>
+		    <option value="thin">Stranger Things</option>
+		    <option value="thin"> You </option>
+			<option value="thin"> Titans</option>
+            <option value="thin"> Sex Education</option>
+            <option value="thin">Sabrina</option> 
+          
+	
+       </select> <br>
+
+<label for comments>Comment:</label>
+<textarea name="comments"  placeholder="If you have any comments,please enter them here."></textarea><br>
+
+ <a href="submit.html"> <input type="submit" id="submit" value="Submit"> </a>
+<input type="Reset" id="reset" value="Reset">
+
+
+
+</form>
+	</section> 
+	
+	<aside id="sidebarB">
+	
+	<form name ="site_form" action="submit">
+	
+	       <h2> Customer Satisfaction </h2>
+		 
+	          <p> Overrall how do feel about my website?</p><br>
+
+           <input type="checkbox" name="" id=""  value="Very satisfied">Very satisfied<br><br>
+
+           <input type="checkbox" name="topping2" id="topping2"   value="Satisfied">Satisfied<br><br>
+		   
+           <input type="checkbox" name="topping2" id="topping2" value="Dissatisfied">Dissatisfied<br><br>
+			
+          <input type="checkbox" name="topping2" id="topping2"  value="Verydissatisfied">Verydissatisfied<br><br>
+           
+		  <input type="checkbox" name="topping2" id="topping2" value="Neither satisfied or dissatisfied">Neither satisfied or dissatisfied<br><br>
+
+        <p>Will you visit my site again:</p><br>
+
+        <input type="radio" name="crust" id="crust1"  value="thin">Yes<br><br>
+		
+		<input type="radio" name="crust" id="crust1"  value="thin">No<br><br>
+		
+		
+		 <a href="register.html"> <button type="button">Register</button> </a>
+          <button type="reset"> Reset</button>
+		
+        
+	</form>
+	</aside>
+	
+	
+  </main>
+  
+
+  <footer>
+	<p>&copy; NETFLIX</p>
+  </footer>
+</body>
+</html>
